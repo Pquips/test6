@@ -84,7 +84,12 @@ display: none;
 	background-repeat: repeat-x;
 	height:40px;
 	width:100%;
-
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .bottom{
@@ -93,6 +98,12 @@ display: none;
 	background-repeat: repeat-x;
 	height:110px;
 	width:100%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .T1 {
